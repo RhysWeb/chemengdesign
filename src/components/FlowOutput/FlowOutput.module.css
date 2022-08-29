@@ -1,0 +1,7 @@
+.outputStyled {
+	background-color: hsl(60, 93%, 71%);
+	/* These are set in gases.module.ssc */
+	height: var(--cellHeight);
+	width: var(--cellWidth);
+	color: black;
+}

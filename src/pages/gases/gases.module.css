@@ -1,0 +1,36 @@
+.form {
+	display: inline-grid;
+	grid-template-columns: auto auto auto;
+	/* margin-block: 3rem; */
+	gap: 5px;
+	--cellHeight: 2rem;
+	--cellWidth: 7rem;
+}
+.header {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	text-align: center;
+	font-weight: bold;
+	margin-block: 2rem 0.5rem;
+}
+.label {
+	height: var(--cellHeight);
+	width: var(--cellWidth);
+}
+.input {
+	background-color: hsl(114, 69%, 77%);
+	height: var(--cellHeight);
+	width: var(--cellWidth);
+	color: black;
+}
+.select {
+	height: var(--cellHeight);
+	width: var(--cellWidth);
+	color: black;
+	background-color: var(--brand2);
+}
+.outputStyled {
+	background-color: hsl(60, 93%, 71%);
+	height: var(--cellHeight);
+	width: var(--cellWidth);
+}

@@ -1,0 +1,31 @@
+.main {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.title {
+	margin-top: var(--size-fluid-3);
+	font-size: var(--font-size-fluid-3);
+}
+
+.linksContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: var(--size-fluid-6);
+}
+
+.linksTitle {
+	font-size: var(--font-size-fluid-2);
+	margin-bottom: var(--size-4);
+}
+
+.link {
+	font-size: var(--font-size-fluid-1);
+	color: var(--link);
+	line-height: clamp(2.5rem, 4vw, 3rem);
+}
