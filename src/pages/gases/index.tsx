@@ -35,7 +35,7 @@ export default function Gases() {
 				<title>CE - Gas Conversion</title>
 				<meta
 					name="Content"
-					content="Convert flowrate of ideal gases based on new temperature and pressure conditions"
+					content="Convert flowrate of ideal gases based on new temperature and pressure conditions."
 				/>
 			</Head>
 			<form className={styles.form}>
